@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "nolimit",
+  "version": "1.0.0",
+  
+  "name": "Nolimit",
+  "description": "Mod Description.",
+  "authors": [
+    "Me!"
+  ],
+  
+  "icon": "assets/nolimit/icon.png",
+  "license": "No Licence.",
+  
+  "environment": "*",
+  
+  "entrypoints": {
+    "main": [
+      "valoeghese.nolimit.Nolimit"
+    ]
+  },
+  
+  "requires": {
+    "fabricloader": ">=0.4.0"
+  },
+  
+  "mixins": [
+    "nolimit.mixins.json"
+  ]
+}
