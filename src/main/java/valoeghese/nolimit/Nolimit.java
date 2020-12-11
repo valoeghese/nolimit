@@ -12,4 +12,6 @@ public class Nolimit implements ModInitializer {
 	public void onInitialize() {
 		LOGGER.info("Hacking the 64 stack mainframe...");
 	}
+	
+	public static final int SIZE = 1000;
 }

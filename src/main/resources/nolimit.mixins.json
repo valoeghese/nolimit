@@ -3,7 +3,8 @@
   "package": "valoeghese.nolimit.mixin",
   "compatibilityLevel": "JAVA_8",
   "mixins": [
-    "MixinItemStack"
+    "MixinItemStack",
+    "MixinSlot"
   ],
   "client": [
   ],
